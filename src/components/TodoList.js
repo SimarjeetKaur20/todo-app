@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import TodoItem from "./TodoItem";
 
 function TodoList() {
-  const [todos, setTodos] = useState([
-    "Learn React",
+  const [todos] = useState([
+    "Learn React basics",
     "Build Todo App",
-    "Push to GitHub"
+    "Push project to GitHub",
+    "Improve UI and features"
   ]);
 
   return (
